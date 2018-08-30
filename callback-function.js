@@ -1,5 +1,6 @@
 function findWaldo(arr,found){
   arr.forEach(function(element,i){
+
   if(element==="Waldo"){
   found(i);
   }
